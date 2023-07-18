@@ -3,8 +3,8 @@
 The QR Code Generator is a web application designed to assist users in generating QR codes quickly and easily. This project utilizes JavaScript and the Google Chart API to create a user-friendly site for generating QR codes based on user input.
 
 ## Demo:
-![Screenshot 2023-07-16 141155](https://github.com/Mohit138928/QR-Code-Generator/assets/63627791/af48ee16-e5fb-4c10-9b04-7eaff9d907fb)
 ![Screenshot 2023-07-16 141114](https://github.com/Mohit138928/QR-Code-Generator/assets/63627791/72430fb0-c3d2-4f3a-8cd7-34cda87b82f8)
+![Screenshot 2023-07-16 141155](https://github.com/Mohit138928/QR-Code-Generator/assets/63627791/af48ee16-e5fb-4c10-9b04-7eaff9d907fb)
 
 ## Features:
 
