@@ -6,7 +6,7 @@ The QR Code Generator is a web application designed to assist users in generatin
 ![Screenshot 2023-07-16 141114](https://github.com/Mohit138928/QR-Code-Generator/assets/63627791/72430fb0-c3d2-4f3a-8cd7-34cda87b82f8)
 ![Screenshot 2023-07-16 141155](https://github.com/Mohit138928/QR-Code-Generator/assets/63627791/af48ee16-e5fb-4c10-9b04-7eaff9d907fb)
 
-## Demo of generate QR code 
+## Demo of generating QR code 
 https://mohit138928.github.io/QR-Code-Generator/
 
 ## Features:
