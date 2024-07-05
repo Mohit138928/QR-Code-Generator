@@ -251,4 +251,7 @@ button:active {
   padding: 22px 12px;
   background: transparent;
  }
- 
+
+ .grid h2{
+  align-items: center;
+ }
