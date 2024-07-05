@@ -11,36 +11,39 @@
     <script type="text/javascript">
         function genQR()
         {
-            var gapi="https://chart.googleapis.com/chart?cht=qr&chs=";
+            var gapi="https://api.qrserver.com/v1/create-qr-code/?size=";
+            
+            // https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example;
+
             var myimg=document.getElementById("img");
             var mytext=document.getElementById("qrtext").value;
             var mysize=document.getElementById("size").value;
 
             if (mytext!=="" && mysize=="100")
             {
-                myimg.src=gapi+"100x100"+"&chl="+mytext;
-                // https://chart.googleapis.com/chart?cht=qr&chs=100x100&chl=hello     /// Google chart API
+                myimg.src=gapi+"100x100"+"&data="+mytext;
+
             }
 
             else if(mytext!=="" && mysize=="150")
             {
 
-                myimg.src=gapi+"150x150"+"&chl="+mytext;
+                myimg.src=gapi+"150x150"+"&data="+mytext;
             }
 
             else if(mytext!=="" && mysize=="200")
             {
-                myimg.src=gapi+"200x200"+"&chl="+mytext;
-            }
-
-            else if (mytext!=="" && mysize=="250")
-            {
-                myimg.src=gapi+"250x250"+"&chl="+mytext;
+                myimg.src=gapi+"200x200"+"&data="+mytext;
             }
 
             else if (mytext!=="" && mysize=="300")
             {
-                myimg.src=gapi+"300x300"+"&chl="+mytext;
+                myimg.src=gapi+"300x300"+"&data="+mytext;
+            }
+
+            else if (mytext!=="" && mysize=="400")
+            {
+                myimg.src=gapi+"400x400"+"&data="+mytext;
             }
 
             else
@@ -51,16 +54,16 @@
         }
     </script>
     <div class="grid">
-        <h2 align="center">Generate your own QR Code</h2>
+        <h2>Generate your own QR Code</h2>
         <center>
         <img src="" id="img"></center>
 
-        <select id="size" class="select">
+        <select id="size" class="select" title="Please Select the size">
             <option value="100">100x100</option>
             <option value="150">150x150</option>
             <option value="200">200x200</option>
-            <option value="250" selected>250x250</option>
             <option value="300">300x300</option>
+            <option value="400">400x400</option>
         </select>
         <br><br>
         <input id="qrtext" type="text" name="text" class="input" placeholder="Type something here....">
